@@ -1,10 +1,10 @@
 package com.evg_ivanoff.composition.domain.entity.usecases
 
 import com.evg_ivanoff.composition.domain.entity.Question
-import com.evg_ivanoff.composition.domain.entity.repository.gameRepository
+import com.evg_ivanoff.composition.domain.entity.repository.GameRepository
 
 class GenerateQuestionUseCase(
-    private val repository: gameRepository
+    private val repository: GameRepository
 ) {
 
     operator fun invoke(maxSumValue: Int): Question {

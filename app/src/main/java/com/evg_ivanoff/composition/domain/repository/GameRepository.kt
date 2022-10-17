@@ -1,4 +1,4 @@
-package com.evg_ivanoff.composition.repository
+package com.evg_ivanoff.composition.domain.repository
 
 import com.evg_ivanoff.composition.domain.entity.GameSettings
 import com.evg_ivanoff.composition.domain.entity.Level

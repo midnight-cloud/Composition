@@ -2,7 +2,7 @@ package com.evg_ivanoff.composition.domain.usecases
 
 import com.evg_ivanoff.composition.domain.entity.GameSettings
 import com.evg_ivanoff.composition.domain.entity.Level
-import com.evg_ivanoff.composition.repository.GameRepository
+import com.evg_ivanoff.composition.domain.repository.GameRepository
 
 class GetGameSettingsUseCase(private val repository: GameRepository) {
 

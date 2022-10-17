@@ -1,4 +1,4 @@
-package com.evg_ivanoff.composition.presentation
+package com.evg_ivanoff.composition.domain.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

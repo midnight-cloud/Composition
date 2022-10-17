@@ -1,7 +1,7 @@
-package com.evg_ivanoff.composition.domain.entity.usecases
+package com.evg_ivanoff.composition.domain.usecases
 
 import com.evg_ivanoff.composition.domain.entity.Question
-import com.evg_ivanoff.composition.domain.entity.repository.GameRepository
+import com.evg_ivanoff.composition.repository.GameRepository
 
 class GenerateQuestionUseCase(
     private val repository: GameRepository

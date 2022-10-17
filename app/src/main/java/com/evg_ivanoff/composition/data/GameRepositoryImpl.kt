@@ -3,7 +3,7 @@ package com.evg_ivanoff.composition.data
 import com.evg_ivanoff.composition.domain.entity.GameSettings
 import com.evg_ivanoff.composition.domain.entity.Level
 import com.evg_ivanoff.composition.domain.entity.Question
-import com.evg_ivanoff.composition.domain.entity.repository.GameRepository
+import com.evg_ivanoff.composition.repository.GameRepository
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.random.Random
